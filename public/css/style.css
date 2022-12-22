@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    height: 60px;
+}
+.card{
+    overflow: hidden;
+
+}
+.card img{
+    transition: 0.5s all;
+}
+.card img:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+.card-body p{
+    text-align: justify;
+}
